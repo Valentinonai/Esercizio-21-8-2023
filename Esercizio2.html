@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Esercizio2 21-8-2023</title>
+  </head>
+  <body style="text-align: center">
+    <h1>Animals</h1>
+    <form onsubmit="save(event)">
+      <input type="text" placeholder="petName" required /> <br /><br />
+      <input type="text" placeholder="ownerName" required /> <br /><br />
+      <input type="text" placeholder="species" required /> <br /><br />
+      <input type="text" placeholder="breed" required /><br /><br />
+      <button>Submit</button> <br /><br />
+    </form>
+    <button onclick="confrontoOwner()">CheckOwner</button>
+    <h2>Summary</h2>
+    <div>
+      <ul id="lista" style="text-align: left"></ul>
+    </div>
+    <script src="./Esercizio2.js"></script>
+  </body>
+</html>
